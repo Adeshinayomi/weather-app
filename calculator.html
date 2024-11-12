@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+  <title>calculator</title>
+  </head>
+  <link rel="stylesheet" href="calculator.css">
+  <body onload="
+  showOnLoad();
+  ">
+    <p id="js-inputarea"></p>
+     
+    <p>
+      <button onclick="
+      calculator('7')
+        ">7</button>
+
+        <button onclick="
+         calculator('8')
+        ">8</button>
+
+        <button onclick="
+         calculator('9')
+        ">9</button>
+
+        <button class="stylebutton" onclick="
+         calculator('/')
+        ">/</button>
+    </p>
+
+    <p>
+      <button onclick="
+       calculator('4')
+        ">4</button>
+
+        <button onclick="
+         calculator('5')
+        ">5</button>
+
+        <button onclick="
+         calculator('6')
+        ">6</button>
+
+       <button class="stylebutton" onclick="
+        calculator('*')
+       ">*</button>
+    </p>
+    <p>
+    <button onclick="
+     calculator('1')
+      ">1</button>
+      
+    <button onclick="
+     calculator('2')
+    ">2</button>
+
+    <button onclick="
+     calculator('3')
+    ">3</button>
+
+    <button class="stylebutton" onclick="
+     calculator('+')
+   ">+</button>
+    </p>
+      <p>
+      <button onclick="
+       calculator('0')
+      ">0</button>
+
+      <button onclick="
+       calculator(' . ')
+      ">.</button>
+
+    <button onclick="
+     calculator('-')
+    ">-</button>
+    <button class="stylebutton" onclick="
+    calculator('del')
+    ">DEL</button>
+    
+    </p>
+    <p>
+      <button class="stylebutton" id="equals" onclick="
+   calculator('=')
+    ">=</button> 
+    
+    <button class="stylebutton" onclick="
+    calculator('A.C')
+     ">AC</button>
+    </p>
+    <script src="calculator.js"></script>
+  </body>
+</html>
