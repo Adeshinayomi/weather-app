@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+}
+nav h1{
+  color: white;
+  font-size: 32px; 
+}
+
+.hero-section{
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+  padding: 10%;
+  background-image: url('noaa-6v0qJb7eiEE-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section .container{
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+.hero-section .container h1{
+  font-size: 30px;
+}
+
+.hero-section .container .search{
+  width: 100%;
+  display: flex;
+  gap: .2rem;
+}
+.container .search button{
+  border: none;
+  width: 5%;
+  padding: 10px;
+  border-radius: 5px;
+}
+.container .search input{
+  border: none;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#profile{
+  width: 80%;
+  margin:50px auto;
+  display: grid;
+
+}
+#profile article{
+  width:50%;
+  padding: 3%;
+  display: grid;
+  gap: 1rem;
+  border: 1px solid;
+}
+
+#profile article .img{
+  width: 50%;
+  margin: auto;
+ 
+}
+article .img img{
+  width: 100%;
+  height: 25vh;
+
+}
+#profile article .info{
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+article .info h2{
+  font-size: 24px;
+}
+article .info button{
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+article .info button a{
+  color: white;
+}
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+@media (min-width:303px) and (max-width:767px) {
+
+  *{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+nav{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+  background-color: black;
+}
+nav h1{
+  color: white;
+  font-size: 32px; 
+}
+
+.hero-section{
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  padding:10% 5%;
+  background-image: url('noaa-6v0qJb7eiEE-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section .container{
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+.hero-section .container h1{
+  font-size: 30px;
+}
+
+.hero-section .container .search{
+  width: 100%;
+  display: flex;
+  gap: .2rem;
+}
+.container .search button{
+  border: none;
+  width: 5%;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.container .search input{
+  border: none;
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#profile{
+  width: 80%;
+  margin:50px auto;
+  display: grid;
+
+}
+#profile article{
+  width:100%;
+  padding: 3%;
+  display: grid;
+  gap: 1rem;
+  border: 1px solid;
+}
+
+#profile article .img{
+  width: 50%;
+  margin: auto;
+ 
+}
+article .img img{
+  width: 100%;
+  height: 25vh;
+
+}
+#profile article .info{
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+}
+article .info h2{
+  font-size: 24px;
+}
+article .info button{
+  width: 80%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+article .info button a{
+  color: white;
+}
+}
